@@ -24,6 +24,6 @@ export class CartService {
   }
   
   getShippingPrices() {
-    return this.http.get('/assets/shipping.json');
+    return this.http.get('https://s3.ca-central-1.amazonaws.com/public.cambian.burnttimber.ca/shipping.json');
   }
 }
